@@ -92,6 +92,14 @@ nav {
 }
 
 .main-content {
+	width: 100%;
+	height: 2000px;
+	text-align: center;
+}
+
+.main-content-home {
+	width: 100%;
+	height: 1000px;
 	text-align: center;
 }
 
@@ -119,17 +127,17 @@ nav {
 }
 
 .projects-listing {
-	width: 1000px;
+	width: 1440px;
 	margin: 50px auto;	
+}
+
+.project-img-hp {
+	width: 600px;
 }
 
 .project {
 	display: inline-block;
-	margin-right: 30px;
-}
-
-.project:last-of-type {
-	margin-right: 0;
+	margin: 0 50px 70px 0;
 }
 
 .project-1 a img {
@@ -172,5 +180,9 @@ nav {
 }
 
 .project-img {
-	height: 470px;
+	width: 2000px;
+}
+
+.project-link {
+	margin-top: 200px;
 }
