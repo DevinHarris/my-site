@@ -127,12 +127,34 @@ nav {
 }
 
 .projects-listing {
-	width: 1440px;
+	width: 1200px;
 	margin: 50px auto;	
 }
 
 .project-img-hp {
-	width: 600px;
+	width: 500px;
+}
+
+@media all and (max-width: 1300px) {
+	.projects-listing {
+		width: 500px;
+	}
+
+	.project {
+		display: block;
+	}
+
+	.project-img-hp {
+		width: 550px;
+	}
+
+	.section-heading {
+		margin: 0 auto;
+	}
+
+	.main-content {
+		height: 1500px
+	}
 }
 
 .project {
@@ -180,7 +202,8 @@ nav {
 }
 
 .project-img {
-	width: 2000px;
+	display: block;
+	width: 100%;
 }
 
 .project-link {
